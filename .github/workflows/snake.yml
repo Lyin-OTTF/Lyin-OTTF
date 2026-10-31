@@ -19,8 +19,9 @@ jobs:
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Lyin-OTTF
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: dist/github-contribution-grid-snake.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push snake svg to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
