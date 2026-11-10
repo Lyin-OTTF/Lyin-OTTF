@@ -1,6 +1,6 @@
 # Hi, I'm Lyin-OTTF
 
-**Java Backend · AI Agent Developer · 2027 Graduate**
+**Java Backend · AI Agent Developer · 2028 Graduate**
 
 I build backend services with Spring Boot and AI agent workflows with Spring AI / LangGraph.
 Currently contributing to open-source projects in the Java ecosystem.
